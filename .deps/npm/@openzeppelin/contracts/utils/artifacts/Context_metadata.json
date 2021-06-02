@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/@openzeppelin/contracts/utils/Context.sol": "Context"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x5b8438276388adbcdddc7e8ed118ee3c897a785a0c583301640a1e2746f49867",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c168086f35fa44d2cd7da4962db157d32bb3d4d6e4eb97a12b442c2e4d265df",
+				"dweb:/ipfs/QmdMRqhNk4tPypGdTgoe5446kV74PeznEYne71Cpi5wUeV"
+			]
+		}
+	},
+	"version": 1
+}

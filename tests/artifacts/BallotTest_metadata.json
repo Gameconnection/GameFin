@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinninProposalWithReturnValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinningProposal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"/tests/4_Ballot_test.sol": "BallotTest"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/contracts/3_Ballot.sol": {
+			"keccak256": "0xc0c29fba70e0e9c88238e3253bd1563a33c763c76f546ed16cd527fc648e7818",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2c5fa64afec3d182a9a888a2ce2645384f309a73ad5c82404079e06c298ff48f",
+				"dweb:/ipfs/QmV9cw1eCh46HkyX7ixRHJV27tHajBa4JYVMijgok6PTEN"
+			]
+		},
+		"/tests/4_Ballot_test.sol": {
+			"keccak256": "0x00fcb0360114929ad64d6acb68bc4eb1fea2cf4033d85359a8f7aab09a2c0f72",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://db2ef07cf86b36f8b52252c09c7a6ffa41d03787f131021328470d85cc486380",
+				"dweb:/ipfs/QmcEXUBtWeq4UY6ijEw8MjENx3L6RkGpXdNZXFzjUzZn7w"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}
