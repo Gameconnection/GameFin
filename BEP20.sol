@@ -9,7 +9,7 @@ contract BEP20 is PausableToken, MintableToken {
     string public name = "Game Connection Token";
     string public symbol = "GCGT";
     uint8 public decimals = 18;
-
+ 
     constructor() public {
         totalSupply_ = 1000000000000 * (10 ** uint256(decimals));
     }
