@@ -6,7 +6,7 @@ import "../math/SafeMath.sol";
 import "../token/ERC20/SafeERC20.sol";
 import "../utils/ReentrancyGuard.sol";
 
-/**
+/**  
  * @title Crowdsale
  * @dev Crowdsale is a base contract for managing a token crowdsale,
  * allowing investors to purchase tokens with ether. This contract implements
